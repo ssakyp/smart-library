@@ -43,12 +43,27 @@ mvn spring-boot:run
 - Maven
 
 ## Project Structure
-src/ 
-|-- controller/ 
-|-- service/ 
-|-- repository/ 
-|-- model/ 
+```
+src/
+|-- controller/
+|   |-- UserController.java
+|   |-- BookController.java
+|   |-- UserControllerImpl.java
+|   |-- BookControllerImpl.java
+|-- service/
+|   |-- UserService.java
+|   |-- BookService.java
+|   |-- UserServiceImpl.java
+|   |-- BookServiceImpl.java
+|-- repository/
+|   |-- UserRepository.java
+|   |-- BookRepository.java
+|-- model/
+|   |-- User.java
+|   |-- Book.java
 |-- LibraryApplication.java
+```
+
 
 
 ## Author & Submission
